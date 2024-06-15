@@ -1,5 +1,6 @@
 :root {
-
+  --text-primary: white;
+  --bg-primary: #2c2c2c;
 }
 
 * {
@@ -12,5 +13,9 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-primary);
 }
 
