@@ -10,10 +10,10 @@ export function Header(){
             <h2>Sou Desenvolvedora Web FullStack</h2>
         </div>
         <Image
-              src="/eu2.jpg"
+              src="/eu5.png"
               alt="eu"
-              width={215}
-              height={237}
+              width={150}
+              height={217}
               priority
             />
         </div>
