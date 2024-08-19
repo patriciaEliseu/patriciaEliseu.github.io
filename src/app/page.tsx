@@ -1,17 +1,26 @@
 import Image from "next/image";
-
+import Header from "./components/header/header";
+import Experience from "./components/experience/experience";
+import Languages from "./components/languages/languages";
+import "./styles/home.scss"
 
 export default function Home() {
   return (
-    <main >
+    <main className="container">
+     <Header/>
+      <Experience/>
+      <Languages/>
      
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"              
-              width={100}
-              height={24}
-              priority
-            />
+        <h3>Educação</h3>
+        <div className="education">
+          <span>🎓</span>
+        <span>Texto sobre onde Estudei</span>
+      </div>
+      <div className="buttons">
+        <div className="social"></div>
+        <button>Entre em contato</button>
+      </div>
+           
         
     </main>
   );
