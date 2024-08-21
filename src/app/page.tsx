@@ -14,7 +14,9 @@ export default function Home() {
      
       <div className="buttons">
         <SocialBtns/>
-        <button>Entre em contato</button>
+        <a className="btn-primary" href="zap: (19) 98234-1686">
+          Entre em contato
+          </a>
       </div>
            
         

@@ -12,7 +12,7 @@ export default function Header() {
 <Image
         src="/eu5.png"
         alt="Minha foto"              
-        width={200}
+        width={275}
         height={300}
         priority
       />
