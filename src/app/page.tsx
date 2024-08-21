@@ -1,23 +1,19 @@
 import Image from "next/image";
 import Header from "./components/header/header";
-import Experience from "./components/experience/experience";
-import Languages from "./components/languages/languages";
+import {Experience} from "./components/experience/experience";
+import {Info} from "./components/information/information";
 import "./styles/home.scss"
+import { SocialBtns } from "./components/social-btns/social-btns";
 
 export default function Home() {
   return (
     <main className="container">
      <Header/>
       <Experience/>
-      <Languages/>
+      <Info/>
      
-        <h3>Educação</h3>
-        <div className="education">
-          <span>🎓</span>
-        <span>Texto sobre onde Estudei</span>
-      </div>
       <div className="buttons">
-        <div className="social"></div>
+        <SocialBtns/>
         <button>Entre em contato</button>
       </div>
            

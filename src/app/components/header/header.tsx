@@ -6,14 +6,14 @@ export default function Header() {
 
 <div className="header">
       <div>
-  <h1>Olá, eu sou a Patrícia Eliseu!</h1>
+  <h1>Olá, meu nome é Patrícia Eliseu!👋</h1>
   <h2>Desenvolvedora de Software</h2>
 </div>
 <Image
         src="/eu5.png"
         alt="Minha foto"              
-        width={300}
-        height={330}
+        width={200}
+        height={300}
         priority
       />
 </div>
