@@ -9,7 +9,7 @@ const inter = Poppins({
 
 export const metadata: Metadata = {
   title: "Patricia Eliseu",
-  description: "patriciaEliseu.github.io",
+  description: "patriciaeliseu.github.io",
 };
 
 export default function RootLayout({
